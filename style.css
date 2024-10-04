@@ -1,0 +1,201 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    padding: 20px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+
+}
+
+.links {
+    display: flex;
+    gap: 25px;
+    text-decoration: none;
+    color:#E5E7EB;
+}
+
+.hero {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+.left{
+    display: flex;
+    /* border: solid pink; */
+    flex-direction: column;
+    gap: 10px;
+    flex-grow: 1;
+    color: #f9faf8;
+}
+.heropic{
+    border: solid;
+    display: flex;
+    margin-top: 100px;
+    height: 299px;
+    flex-grow: 1;
+    background-color: gray;
+    max-width: 538px;
+    
+    
+    
+}
+
+.button {
+    max-width: 120px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-size: 25px;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    
+}
+.right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    flex-grow: 2;
+}
+
+.lorem1 {
+    max-width: 400px;
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.title{
+    font-weight: 900;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 60px;
+    /* border: solid; */
+}
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid; */
+    padding-bottom: 60px;
+}
+
+.header{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    /* border: pink;   */
+    flex-direction: column;
+}
+.img{
+    display: flex;
+    border: solid #3882f6 8px;
+    border-radius: 20px;
+    min-height: 200px;
+    min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+}
+.box1, .box2, .box3, .box4 {
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem2 {
+    display: flex;
+    max-width: 200px;
+   /* border: solid; */
+   text-align: center;
+   align-self: center;
+   flex-wrap: wrap;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.qtext {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.qauthor {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.cta {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+.bluebox {
+    /* border: solid; */
+    background-color: orange;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.ctatext {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.ctasmaller {
+    color: #E5E7EB;
+    font-size: 23px;
+}
+
+.ctabutton {
+    width: 150px;
+    background-color:#3882f6;
+    align-self: center;
+    font-size: 18px;
+padding-top: 7px;
+padding-bottom: 7px;
+color: #E5E7EB;
+font-weight: 700;
+border-radius: 7px;
+}
+
+.footer{
+    padding: 20px;
+    background-color: #1f2937;
+    text-align: center;
+    color: #E5E7EB;
+}
